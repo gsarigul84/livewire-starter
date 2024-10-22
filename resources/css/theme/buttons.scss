@@ -1,0 +1,81 @@
+.btn {
+    @apply w-full py-3 px-4 inline-flex justify-center items-center gap-x-2 text-sm font-medium rounded-lg border shadow-sm disabled:opacity-50 disabled:pointer-events-none;
+}
+
+.btn-info{
+    @apply bg-info text-white;
+    &:hover{
+        @apply bg-info-600;
+    }
+    &.soft{
+        @apply bg-info-100 text-info;
+        &:hover{
+            @apply bg-info-200;
+        }
+    }
+}
+
+.btn-primary{
+    @apply bg-primary text-white;
+
+    &:hover{
+        @apply bg-primary-600;
+    }
+    &.soft{
+        @apply bg-primary-100 text-primary;
+        &:hover{
+            @apply bg-primary-200;
+        }
+    }
+}
+
+.btn-secondary{
+    @apply bg-secondary text-white;
+    &:hover{
+        @apply bg-secondary-600;
+    }
+    &.soft{
+        @apply bg-secondary-100 text-secondary;
+        &:hover{
+            @apply bg-secondary-200;
+        }
+    }
+}
+
+.btn-success{
+    @apply bg-success text-white;
+    &:hover{
+        @apply bg-success-600;
+    }
+    &.soft{
+        @apply bg-success-100 text-success;
+        &:hover{
+            @apply bg-success-200;
+        }
+    }
+}
+
+.btn-danger{
+    @apply bg-danger text-white;
+    &:hover{
+        @apply bg-danger-600;
+    }
+    &.soft{
+        @apply bg-danger-100 text-danger;
+        &:hover{
+            @apply bg-danger-200;
+        }
+    }
+}
+.btn-warning{
+    @apply bg-warning text-white;
+    &:hover{
+        @apply bg-warning-600;
+    }
+    &.soft{
+        @apply bg-warning-100 text-warning;
+        &:hover{
+            @apply bg-warning-200;
+        }
+    }
+}
